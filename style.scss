@@ -25,7 +25,7 @@
 
         & ul li {
           display: inline;
-          padding:5px;
+          padding: 5px;
           a {
             font-family: "Roboto", sans-serif;
             font-size: 16px;
@@ -63,6 +63,35 @@
             color: white;
             font-size: 16px;
             border: 0;
+          }
+        }
+      }
+    }
+  }
+  main {
+    section {
+      display: flex;
+      flex-direction: column;
+      .spot {
+        position: relative;
+        &:nth-child(2) {
+          display: flex;
+          justify-content: end;
+        }
+        &:last-child {
+          float: left;
+        }
+      }
+      .portfolio {
+        position:absolute;
+        .pf-card {
+          h1 {
+            font-family: "Source Serif Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 58px;
+            color: #3a5f56;
           }
         }
       }

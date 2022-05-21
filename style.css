@@ -48,5 +48,24 @@
             color: white;
             font-size: 16px;
             border: 0; }
+  .wrapper main section {
+    display: flex;
+    flex-direction: column; }
+    .wrapper main section .spot {
+      position: relative; }
+      .wrapper main section .spot:nth-child(2) {
+        display: flex;
+        justify-content: end; }
+      .wrapper main section .spot:last-child {
+        float: left; }
+    .wrapper main section .portfolio {
+      position: absolute; }
+      .wrapper main section .portfolio .pf-card h1 {
+        font-family: "Source Serif Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        color: #3a5f56; }
 
 /*# sourceMappingURL=style.css.map */
