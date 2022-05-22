@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap");
+
 .wrapper {
   width: 100%;
   background: white;
@@ -56,17 +57,21 @@
         .nav-button {
           width: 25%;
           height: 100%;
-          button {
-            width: 100%;
-            height: 100%;
-            background: #3a5f56;
-            color: white;
-            font-size: 16px;
-            border: 0;
-          }
         }
       }
     }
+  }
+  .agneshka {
+    width: 100%;
+    height: 100%;
+    background: #3a5f56;
+    color: white;
+    font-size: 16px;
+    border: 0;
+  }
+  .true-size {
+    width: 21.37%;
+    height: 16%;
   }
   main {
     section {
@@ -83,15 +88,45 @@
         }
       }
       .portfolio {
-        position:absolute;
-        .pf-card {
-          h1 {
-            font-family: "Source Serif Pro";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 48px;
-            line-height: 58px;
-            color: #3a5f56;
+        min-width: 100%;
+        position: absolute;
+        z-index: 9999;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .freedom {
+          display:flex;
+          flex-direction:row;
+          align-items:center;
+          .pf-card {
+            max-width: 38.33%;
+            height: 53.68%;
+            img {
+              width: 100%;
+            }
+            &:first-child {
+              max-width:100%;
+              height: 298px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            }
+            h1 {
+              font-family: "Source Serif Pro";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 48px;
+              line-height: 58px;
+              color: #3a5f56;
+            }
+            p {
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 22px;
+              color: #292c32;
+            }
           }
         }
       }
