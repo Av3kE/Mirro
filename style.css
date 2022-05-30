@@ -100,7 +100,8 @@
           line-height: 22px;
           color: #292c32; }
   .wrapper main .services {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 15%; }
     .wrapper main .services .services-container {
       min-width: 83.33%;
       max-width: 83.33%;
@@ -108,28 +109,6 @@
       flex-direction: column;
       margin: 0 auto;
       margin-top: 7%; }
-      .wrapper main .services .services-container .top-part {
-        height: 10.41%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between; }
-        .wrapper main .services .services-container .top-part h2 {
-          font-family: "Source Serif Pro";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 32px;
-          line-height: 38px;
-          text-align: center;
-          color: #3a5f56; }
-        .wrapper main .services .services-container .top-part p {
-          font-family: "Roboto";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 22px;
-          text-align: center;
-          color: #292c32; }
       .wrapper main .services .services-container .bottom-part {
         max-width: 97.35%;
         display: flex;
@@ -172,14 +151,93 @@
                 line-height: 22px;
                 color: #292C32;
                 padding-bottom: 17px; }
-              .wrapper main .services .services-container .bottom-part .services-card .services-card-container .services-card-info button {
-                background: none;
-                border: none;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 17px;
-                line-height: 24px;
-                color: #3A5F56; }
+  .wrapper main button[type="submit"] {
+    background: none;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #3A5F56; }
+  .wrapper main .top-part {
+    height: 10.41%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.916%; }
+    .wrapper main .top-part img {
+      padding-bottom: 1.21%; }
+    .wrapper main .top-part h2 {
+      font-family: "Source Serif Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 38px;
+      text-align: center;
+      color: #3a5f56;
+      padding-bottom: 0.91%; }
+    .wrapper main .top-part p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #292c32; }
+  .wrapper main .preset-store-container {
+    width: 100%;
+    background: #F4F3F0; }
+    .wrapper main .preset-store-container .preset-store {
+      margin-top: 8.33%;
+      display: flex;
+      flex-direction: column; }
+      .wrapper main .preset-store-container .preset-store .top-part h2 {
+        color: #DB343B; }
+      .wrapper main .preset-store-container .preset-store div {
+        margin: 0 auto; }
+        .wrapper main .preset-store-container .preset-store div button {
+          background: none;
+          border: none;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 24px;
+          color: #3A5F56; }
+      .wrapper main .preset-store-container .preset-store .preset-pack-container {
+        min-width: 83.33%;
+        max-width: 83.33%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 30px; }
+        .wrapper main .preset-store-container .preset-store .preset-pack-container .preset-pack {
+          display: flex;
+          flex-direction: column;
+          width: 31.58%;
+          background: white;
+          border-radius: 16px; }
+          .wrapper main .preset-store-container .preset-store .preset-pack-container .preset-pack div:last-child {
+            padding: 30px; }
+          .wrapper main .preset-store-container .preset-store .preset-pack-container .preset-pack img {
+            width: 100%; }
+          .wrapper main .preset-store-container .preset-store .preset-pack-container .preset-pack h2 {
+            font-family: 'Source Serif Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            color: #3A5F56;
+            padding-bottom: 6px; }
+          .wrapper main .preset-store-container .preset-store .preset-pack-container .preset-pack p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #3A5F56; }
 
 /*# sourceMappingURL=style.css.map */
