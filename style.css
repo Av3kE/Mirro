@@ -195,9 +195,10 @@
       flex-direction: column; }
       .wrapper main .preset-store-container .preset-store .top-part h2 {
         color: #DB343B; }
-      .wrapper main .preset-store-container .preset-store div {
-        margin: 0 auto; }
-        .wrapper main .preset-store-container .preset-store div button {
+      .wrapper main .preset-store-container .preset-store .preset-store-button {
+        margin: 0 auto;
+        margin-bottom: 8.3%; }
+        .wrapper main .preset-store-container .preset-store .preset-store-button button {
           background: none;
           border: none;
           font-family: 'Roboto';
@@ -239,5 +240,35 @@
             font-size: 16px;
             line-height: 22px;
             color: #3A5F56; }
+  .wrapper main .contact-wrapper {
+    width: 100%; }
+    .wrapper main .contact-wrapper .contact {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
+      background: #F4F3F0;
+      width: 55.55%;
+      margin: 0 auto;
+      height: 259px;
+      margin-top: 100px; }
+      .wrapper main .contact-wrapper .contact div {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        .wrapper main .contact-wrapper .contact div p {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 34px;
+          color: #292C32; }
+        .wrapper main .contact-wrapper .contact div .agneshka {
+          width: 0;
+          min-width: 15.65%;
+          height: 58px; }
 
 /*# sourceMappingURL=style.css.map */
