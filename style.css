@@ -273,7 +273,7 @@
       max-width: 81.1%;
       min-width: 81.1%;
       margin: 0 auto;
-      padding-top: 6.94%; }
+      padding: 6.94% 0 8.23% 0; }
       .wrapper footer .footer-wrapper .footer-part-one {
         width: min-content;
         margin: 0 auto;
@@ -286,6 +286,8 @@
           width: 18.92%; }
           .wrapper footer .footer-wrapper .footer-part-two .footer-lists:first-child ul {
             padding-bottom: 29px; }
+          .wrapper footer .footer-wrapper .footer-part-two .footer-lists:nth-child(2) ul {
+            padding-bottom: 19px; }
           .wrapper footer .footer-wrapper .footer-part-two .footer-lists h3 {
             font-family: 'Roboto';
             font-style: normal;
@@ -294,14 +296,16 @@
             line-height: 20px;
             letter-spacing: 3px;
             text-transform: uppercase;
-            color: #B87D58; }
+            color: #B87D58;
+            padding-bottom: 9px; }
           .wrapper footer .footer-wrapper .footer-part-two .footer-lists ul li {
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 22px;
-            color: #FFFFFF; }
+            color: #FFFFFF;
+            padding-bottom: 9px; }
         .wrapper footer .footer-wrapper .footer-part-two .newsletter-form {
           width: 41.82%; }
           .wrapper footer .footer-wrapper .footer-part-two .newsletter-form h3 {
@@ -351,5 +355,25 @@
               border: none;
               background: #292C32;
               border-radius: 10px; }
+      .wrapper footer .footer-wrapper .footer-part-three {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        .wrapper footer .footer-wrapper .footer-part-three pre {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: #FFFFFF; }
+        .wrapper footer .footer-wrapper .footer-part-three div i {
+          font-size: 24px;
+          color: white; }
+        .wrapper footer .footer-wrapper .footer-part-three div:last-child {
+          width: 12.83%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */
