@@ -107,8 +107,7 @@
       max-width: 83.33%;
       display: flex;
       flex-direction: column;
-      margin: 0 auto;
-      margin-top: 7%; }
+      margin: 7% auto 0; }
       .wrapper main .services .services-container .bottom-part {
         max-width: 97.35%;
         display: flex;
@@ -196,8 +195,7 @@
       .wrapper main .preset-store-container .preset-store .top-part h2 {
         color: #DB343B; }
       .wrapper main .preset-store-container .preset-store .preset-store-button {
-        margin: 0 auto;
-        margin-bottom: 8.3%; }
+        margin: 0 auto 8.3%; }
         .wrapper main .preset-store-container .preset-store .preset-store-button button {
           background: none;
           border: none;
@@ -213,8 +211,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 0 auto;
-        margin-bottom: 30px; }
+        margin: 0 auto 30px; }
         .wrapper main .preset-store-container .preset-store .preset-pack-container .preset-pack {
           display: flex;
           flex-direction: column;
@@ -250,9 +247,8 @@
       border-radius: 16px;
       background: #F4F3F0;
       width: 55.55%;
-      margin: 0 auto;
-      height: 259px;
-      margin-top: 100px; }
+      margin: 100px auto;
+      height: 259px; }
       .wrapper main .contact-wrapper .contact div {
         width: 80%;
         display: flex;
@@ -270,5 +266,90 @@
           width: 0;
           min-width: 15.65%;
           height: 58px; }
+  .wrapper footer {
+    width: 100%;
+    background: #292C32; }
+    .wrapper footer .footer-wrapper {
+      max-width: 81.1%;
+      min-width: 81.1%;
+      margin: 0 auto;
+      padding-top: 6.94%; }
+      .wrapper footer .footer-wrapper .footer-part-one {
+        width: min-content;
+        margin: 0 auto;
+        margin-bottom: 5%; }
+      .wrapper footer .footer-wrapper .footer-part-two {
+        width: 100%;
+        display: flex;
+        flex-direction: row; }
+        .wrapper footer .footer-wrapper .footer-part-two .footer-lists {
+          width: 18.92%; }
+          .wrapper footer .footer-wrapper .footer-part-two .footer-lists:first-child ul {
+            padding-bottom: 29px; }
+          .wrapper footer .footer-wrapper .footer-part-two .footer-lists h3 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #B87D58; }
+          .wrapper footer .footer-wrapper .footer-part-two .footer-lists ul li {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF; }
+        .wrapper footer .footer-wrapper .footer-part-two .newsletter-form {
+          width: 41.82%; }
+          .wrapper footer .footer-wrapper .footer-part-two .newsletter-form h3 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #B87D58; }
+          .wrapper footer .footer-wrapper .footer-part-two .newsletter-form p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FAFAFC;
+            padding-bottom: 2%; }
+          .wrapper footer .footer-wrapper .footer-part-two .newsletter-form .form-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 8px;
+            border: 1px solid #E5E7EB;
+            height: 53px;
+            background: #F9FAFB; }
+            .wrapper footer .footer-wrapper .footer-part-two .newsletter-form .form-wrapper form {
+              width: 80%;
+              border-radius: 8px;
+              height: 100%; }
+              .wrapper footer .footer-wrapper .footer-part-two .newsletter-form .form-wrapper form input {
+                width: 100%;
+                border: none;
+                border-radius: 8px;
+                height: 95%; }
+                .wrapper footer .footer-wrapper .footer-part-two .newsletter-form .form-wrapper form input:focus {
+                  background: white;
+                  outline: none; }
+            .wrapper footer .footer-wrapper .footer-part-two .newsletter-form .form-wrapper button {
+              width: 15.5%;
+              height: 73.5%;
+              color: #FFF;
+              border: none;
+              background: #292C32;
+              border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */
